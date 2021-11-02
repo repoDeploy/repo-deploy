@@ -23,6 +23,7 @@ go in a dir and create a .repo-deploy.yml
     dir: .config/wezterm
 
 ```
+> or you can `rd init https://myRepoFile.yml`  or `rd init myOtherRepoFile.yml`
 
 and 
 
@@ -30,11 +31,10 @@ and
 
 `rd git status`  or `rd anyCommand` to execute any command for each repo
 
-or you can `rd init https://myRepoFile.yml`  or `rd init myOtherRepoFile.yml`
 
 
 
-I have added some features like download files, add text in file  or add cmd loop
+I have added some features like download files, add text in file  or cmd loop
 
 ```
 
