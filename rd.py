@@ -110,7 +110,7 @@ def executeSetBlock(i_file,i_block,i_markers):
 
 
 def getManifest():
-    if len(sys.argv) > 2:
+    if len(sys.argv) > 2 and sys.argv[1]=="init" :
         result=readManifest(sys.argv[2])
     else:
         result=readManifest(".repo-deploy.yml")
